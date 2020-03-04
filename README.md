@@ -26,8 +26,3 @@ Among the source files is GameModel.java which is the class that encapsulates:
 GameModel does not contain any code specific to Tic-Tac-Toe. It merely moderates the interactions between the board, IBoardModel and the strategy to compute the next move, INextMoveStrategy. GameModel.getRequestor() is the factory method to instantiate the IRequestor for the view. GameModel directly implements the IModelManager interface.
 
 GameModel.java has a method called getPlayers().  In this method, the code to add players playing the strategies. The only available stategy is RandomMoveStrategy implements the INextMoveStrategy. 
-
-For more info please review the following paper:
-https://www2.cs.duke.edu/courses/cps108/spring04/notes/zungmvc.pdf
-
-Be sure to document (in javadoc style) all the code you write.
